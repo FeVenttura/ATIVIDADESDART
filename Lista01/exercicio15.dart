@@ -31,7 +31,7 @@ void main() {
   pato.nadar();
   pato.voar();
 
-  var golfinho = Golfinho('Flipper');
+  var golfinho = Golfinho('Azul');
   print('\n--- Golfinho ---');
   golfinho.nadar();
 
