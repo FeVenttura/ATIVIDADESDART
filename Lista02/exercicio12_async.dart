@@ -3,7 +3,7 @@ import 'dart:async';
 Future<String?> autenticarUsuario(String usuario, String senha) async {
   await Future.delayed(Duration(seconds: 1));
   if (usuario == 'admin' && senha == '123') {
-    return 'token_secreto_777';
+    return 'token';
   }
   return null;
 }
